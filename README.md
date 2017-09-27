@@ -1,1 +1,1 @@
-# python_intermediate_project
+# project_template
