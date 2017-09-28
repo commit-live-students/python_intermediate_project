@@ -1,7 +1,7 @@
 ## Task4:Analyzing IPL Matches
 ### Create a function that returns a NumPy array when given a path to a CSV file
 
-**The function should **
+**The function should**
 - Be named `read_csv_data_to_ndarray`
 - Accept parameters as follows
     - First parameter is named `path`, representing the path of the file to be loaded. This is mandatory
@@ -10,3 +10,5 @@
 - Use that `path` and `dtype` to read the CSV file and return the numpy array (using a standard numpy library function)
 - Always skip the header row when reading the CSV
 - Return the numpy array
+
+By executing this task you can learn the basic operation of reading a csv file and manipulate it.

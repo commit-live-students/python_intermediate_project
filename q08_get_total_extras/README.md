@@ -2,7 +2,8 @@
 
 Create a function that answers this question.
 
-**The function should **
+**The function should**
+ 
 - Be named `get_total_extras`
 - Accept no parameters
 - Work on the previously created `ipl_matches_array` object
