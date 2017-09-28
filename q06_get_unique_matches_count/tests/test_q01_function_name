@@ -1,4 +1,0 @@
-import sys, os
-sys.path.append(os.path.join(os.path.dirname(os.curdir), '..', '..'))
-
-from import_data.build import load_data

@@ -5,6 +5,6 @@ from q01_zeros_array.build import zeros_array
 
 class TestZeros_array(TestCase):
     def test_zeros_array(self):
-        var = zeros_array()
+        var = array_zeros()
         self.assertTrue(var.shape==(3,4,2))
         self.assertTrue(var.max()==0)

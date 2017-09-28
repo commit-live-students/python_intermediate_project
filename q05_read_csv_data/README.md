@@ -1,4 +1,9 @@
-## Use the `read_csv_data` function to read the IPL matches file, and save it in a variable
+## Task 5: Create a function to read a csv file and save it in variable.
 
+
+**The function should**
+- Be named as `read_csv_data`.
 - The variable should be named `ipl_matches_array`
 - The dtype of the `ipl_matches_array` array should be `|S50`
+
+This task will provide help you to learn how to load a structured data(csv) in tabular format.
