@@ -1,4 +1,4 @@
-## Task 5: Create a function to read a csv file and save it in variable.
+## Create a function to read a csv file and save it in variable.
 
 
 **The function should**
@@ -7,3 +7,16 @@
 - The dtype of the `ipl_matches_array` array should be `|S50`
 
 This task will provide help you to learn how to load a structured data(csv) in tabular format.
+
+#### Parameters:
+
+| Parameter | dtype | argument type | default value | description |
+| --- | --- | --- | --- | --- |
+| path | string | compulsory |  | path to the file csv |
+| dtype | Float | optional |  |  |
+
+#### Returns:
+
+| Return | dtype | description |
+| --- | --- | --- |
+| Numpy array | ndarray | Array containing data set values |

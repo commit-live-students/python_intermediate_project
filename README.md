@@ -1,6 +1,7 @@
 # Python Intermediate Assignment
 
-We have already learnt about the basics of Python in the in-class session. We have learnt about
+We have already learnt about the basics of Numpy in the in-class session. We have learnt about
+
 * NumPy
     * Creating Arrays
     * Built-in Methods
@@ -12,9 +13,14 @@ We have already learnt about the basics of Python in the in-class session. We ha
     * Aggregation
     * Mathematical Functions
 
+## Why solve this assignment
 
-Let's get started with our newly learnt concepts and explore them.
-Doing this assignment will help you get acquainted with basic operations in Numpy and Data manipulation.
+Let's consolidate our concepts of Numpy as it is an extremely fast and easy-to-use tool for data manipulation. 
+Doing this assignment will help you get acquainted with Numpy operations and various frequently used data manipulation
+techniques.
 
-## About the Dataset 
-In the previous assignment, we worked with the json/yaml data of ball-by-ball delivery of one IPL match. In this assignment, we provide the ball-by-ball delivery information of a lot of matches in tabular (CSV) format.
+Here is a [link]() to a handy cheatsheet of Numpy for your reference.
+
+## About the dataset 
+In the previous assignment, we have worked with the json/yaml data of ball-by-ball delivery of one IPL match.
+In this assignment, we provide the ball-by-ball delivery information of a lot of matches in tabular (CSV) format.

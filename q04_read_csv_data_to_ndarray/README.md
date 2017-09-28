@@ -1,4 +1,4 @@
-## Task4:Analyzing IPL Matches
+## Analyzing IPL Matches
 ### Create a function that returns a NumPy array when given a path to a CSV file
 
 **The function should**
@@ -12,3 +12,17 @@
 - Return the numpy array
 
 By executing this task you can learn the basic operation of reading a csv file and manipulate it.
+
+
+#### Parameters:
+
+| Parameter | dtype | argument type | default value | description |
+| --- | --- | --- | --- | --- |
+| path | string | compulsory |  | path to the file csv |
+| dtype | Float | optional |  |  |
+
+#### Returns:
+
+| Return | dtype | description |
+| --- | --- | --- |
+| Numpy array | ndarray | Array containing data set values |

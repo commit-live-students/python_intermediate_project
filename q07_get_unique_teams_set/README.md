@@ -9,3 +9,13 @@ Create a function that answers this question.
 
 Last exercise we learned about the unique values and how to extract it , this exercise is further implementation and experimentation
 of unique values. This exercise will help you learn about unique values and its application over data set.
+
+#### Parameters:
+
+This function takes in no parameters
+
+#### Returns:
+
+| Return | dtype | description |
+| --- | --- | --- |
+| Count | Int| No.of counts of unique teams |

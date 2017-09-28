@@ -1,4 +1,4 @@
-## Task 1: Write a function which creates a numpy array of dimensions (3, 3, 3) by following the steps below
+## Write a function which creates a numpy array of dimensions (3, 3, 3) by following the steps below
 
 **The function should**
 - Be named `create_3d_array`
@@ -13,3 +13,9 @@
 
 These steps will result in a unique numpy array. Your solution will be only accepted as correct if your function generates an array that matches ours.
 Solving this will provide you additional experience and better understanding on how numpy array and its dimensions are related.
+
+## Parameters:
+This function takes in no parameters
+
+## Returns
+This function returns an numpy array of dimensions (3,3,3)

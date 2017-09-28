@@ -10,3 +10,13 @@ Create a function that answers this question.
 - Should return an integer sum of extras scored in all matches
 
 This exercise will help you learn about various inbuilt algebric function and application of that.
+
+#### Parameters:
+
+This function takes in no parameters
+
+#### Returns:
+
+| Return | dtype | description |
+| --- | --- | --- |
+| Sum | Int| Sum of extras scored|
