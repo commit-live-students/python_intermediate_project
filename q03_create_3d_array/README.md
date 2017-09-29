@@ -1,7 +1,9 @@
 ## Write a function which creates a numpy array of dimensions (3, 3, 3) by following the steps below
 
+Awesome, you are a quick learner , now let's do some more task to hone your skills of numpy basics.
+Your job is to construct a numpy array under the function name of `create_3d_array`.
+
 **The function should**
-- Be named `create_3d_array`
 - Accept no parameters
 - Return a numpy array with the said dimensions
 

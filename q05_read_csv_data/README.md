@@ -1,6 +1,9 @@
 ## Create a function to read a csv file and save it in variable.
 
 
+Cool, now that you accustomed with handling data set , we should probably 
+try to store it and play with it. 
+
 **The function should**
 - Be named as `read_csv_data`.
 - The variable should be named `ipl_matches_array`

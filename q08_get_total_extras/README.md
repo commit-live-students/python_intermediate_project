@@ -1,6 +1,8 @@
 ## Task 8 :Find the sum of all extras in all deliveries in all matches in the dataset
 
-Create a function that answers this question.
+Well done, by this time you have learnt to extract data and store it in variables.
+Also, you have learnt how to find unique values and toy with it.
+Now we will learn about how to apply basic algebric operations.
 
 **The function should**
  

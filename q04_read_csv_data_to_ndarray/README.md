@@ -1,5 +1,9 @@
 ## Analyzing IPL Matches
-### Create a function that returns a NumPy array when given a path to a CSV file
+
+
+Wow feeling like expert huh..
+Now let's grab some knowledge related to loading of data.
+Your job is to create a function that returns a numpy array when given apath to csv file.
 
 **The function should**
 - Be named `read_csv_data_to_ndarray`

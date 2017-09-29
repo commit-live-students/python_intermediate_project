@@ -1,5 +1,8 @@
 ## Create a function which calculates the unique no. of matches does the provided dataset ?
 
+Awesome now that you have learnt how to fetch data ,its time to do some data manipulation.
+Your job is to create function which calculates the unique no. of matches.
+
 **The function should**
 - Be named `get_unique_matches_count`
 - Work on the previously created `ipl_matches_array` object
