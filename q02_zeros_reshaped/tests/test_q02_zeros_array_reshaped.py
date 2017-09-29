@@ -1,7 +1,7 @@
 import sys, os
 sys.path.append(os.path.join(os.path.dirname(os.curdir), '..', '..'))
 from unittest import TestCase
-from q02_zeros_reshaped.build import zeros_array_reshaped
+from q02_zeros_reshaped.build import array_reshaped_zeros
 from q01_zeros_array.build import array_zeros
 
 class TestZeros_array_reshaped(TestCase):

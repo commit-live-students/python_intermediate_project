@@ -3,24 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="28b17584-61ec-4af4-aca8-c9d7b4fe2a53" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q01_zeros_array/README.md" afterPath="$PROJECT_DIR$/q01_zeros_array/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q01_zeros_array/build.py" afterPath="$PROJECT_DIR$/q01_zeros_array/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q02_zeros_reshaped/README.md" afterPath="$PROJECT_DIR$/q02_zeros_reshaped/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q02_zeros_reshaped/build.py" afterPath="$PROJECT_DIR$/q02_zeros_reshaped/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q03_create_3d_array/README.md" afterPath="$PROJECT_DIR$/q03_create_3d_array/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q03_create_3d_array/build.py" afterPath="$PROJECT_DIR$/q03_create_3d_array/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q04_read_csv_data_to_ndarray/README.md" afterPath="$PROJECT_DIR$/q04_read_csv_data_to_ndarray/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q04_read_csv_data_to_ndarray/build.py" afterPath="$PROJECT_DIR$/q04_read_csv_data_to_ndarray/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q05_read_csv_data/README.md" afterPath="$PROJECT_DIR$/q05_read_csv_data/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q05_read_csv_data/build.py" afterPath="$PROJECT_DIR$/q05_read_csv_data/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q06_get_unique_matches_count/README.md" afterPath="$PROJECT_DIR$/q06_get_unique_matches_count/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q06_get_unique_matches_count/build.py" afterPath="$PROJECT_DIR$/q06_get_unique_matches_count/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q07_get_unique_teams_set/README.md" afterPath="$PROJECT_DIR$/q07_get_unique_teams_set/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q07_get_unique_teams_set/build.py" afterPath="$PROJECT_DIR$/q07_get_unique_teams_set/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q08_get_total_extras/README.md" afterPath="$PROJECT_DIR$/q08_get_total_extras/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q08_get_total_extras/build.py" afterPath="$PROJECT_DIR$/q08_get_total_extras/build.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q01_zeros_array/tests/test_q01_zeros_array.py" afterPath="$PROJECT_DIR$/q01_zeros_array/tests/test_q01_zeros_array.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q02_zeros_reshaped/tests/test_q02_zeros_array_reshaped.py" afterPath="$PROJECT_DIR$/q02_zeros_reshaped/tests/test_q02_zeros_array_reshaped.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q06_get_unique_matches_count/tests/test_q06_get_unique_matches_count.py" afterPath="$PROJECT_DIR$/q06_get_unique_matches_count/tests/test_q06_get_unique_matches_count.py" />
     </list>
+    <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,8 +24,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/q01_zeros_array/tests/test_q01_zeros_array.py" />
-        <option value="$PROJECT_DIR$/q02_zeros_reshaped/tests/test_q02_zeros_array_reshaped.py" />
         <option value="$PROJECT_DIR$/q04_read_csv_data_to_ndarray/tests/test_q04_read_ipl_data.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/q01_zeros_array/README.md" />
@@ -57,6 +42,9 @@
         <option value="$PROJECT_DIR$/q07_get_unique_teams_set/README.md" />
         <option value="$PROJECT_DIR$/q03_create_3d_array/README.md" />
         <option value="$PROJECT_DIR$/q08_get_total_extras/README.md" />
+        <option value="$PROJECT_DIR$/q01_zeros_array/tests/test_q01_zeros_array.py" />
+        <option value="$PROJECT_DIR$/q02_zeros_reshaped/tests/test_q02_zeros_array_reshaped.py" />
+        <option value="$PROJECT_DIR$/q06_get_unique_matches_count/tests/test_q06_get_unique_matches_count.py" />
       </list>
     </option>
   </component>
@@ -66,11 +54,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="728" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="34" />
+    <option name="y" value="353" />
+    <option name="width" value="1263" />
+    <option name="height" value="486" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -87,6 +75,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,55 +98,28 @@
             <path>
               <item name="python_intermediate_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_intermediate_project" type="462c0819:PsiDirectoryNode" />
-              <item name="q02_zeros_reshaped" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_intermediate_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_intermediate_project" type="462c0819:PsiDirectoryNode" />
-              <item name="q03_create_3d_array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_intermediate_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_intermediate_project" type="462c0819:PsiDirectoryNode" />
               <item name="q04_read_csv_data_to_ndarray" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_intermediate_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_intermediate_project" type="462c0819:PsiDirectoryNode" />
-              <item name="q05_read_csv_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_intermediate_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_intermediate_project" type="462c0819:PsiDirectoryNode" />
-              <item name="q06_get_unique_matches_count" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_intermediate_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_intermediate_project" type="462c0819:PsiDirectoryNode" />
-              <item name="q07_get_unique_teams_set" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_intermediate_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_intermediate_project" type="462c0819:PsiDirectoryNode" />
-              <item name="q07_get_unique_teams_set" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python_intermediate_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_intermediate_project" type="462c0819:PsiDirectoryNode" />
               <item name="q08_get_total_extras" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python_intermediate_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_intermediate_project" type="462c0819:PsiDirectoryNode" />
+              <item name="q08_get_total_extras" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="I:/python_intermediate_project (copy)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -184,7 +147,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="34" y="353" width="1263" height="486" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -194,7 +157,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30937973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3449709" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -226,7 +189,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="34">
             <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -237,7 +199,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="34">
             <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -248,7 +209,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="306">
             <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -269,7 +229,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="68">
             <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -302,7 +261,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="119">
             <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -313,7 +271,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="51">
             <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -324,7 +281,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -335,7 +291,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="34">
             <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -346,7 +301,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="68">
             <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -392,81 +346,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q01_zeros_array/tests/test_q01_zeros_array.py">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q02_zeros_reshaped/tests/test_q02_zeros_array_reshaped.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q04_read_csv_data_to_ndarray/tests/test_q04_read_ipl_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="71" lean-forward="false" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q06_get_unique_matches_count/tests/test_q06_get_unique_matches_count.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q07_get_unique_teams_set/tests/test_q07_get_unique_teams_set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q08_get_total_extras/tests/test_q08_get_total_extras.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q03_create_3d_array/tests/test_q03_create_3d_array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q05_read_csv_data/tests/test_q05_read_ipl_data_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="459">
             <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q01_zeros_array/build.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -481,13 +372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q02_zeros_reshaped/build.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -524,7 +408,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="51">
             <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -535,29 +418,65 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="51">
             <caret line="3" column="74" lean-forward="false" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/q07_get_unique_teams_set/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" column="98" lean-forward="false" selection-start-line="3" selection-start-column="98" selection-end-line="3" selection-end-column="98" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="98" lean-forward="false" selection-start-line="3" selection-start-column="98" selection-end-line="3" selection-end-column="98" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q03_create_3d_array/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q08_get_total_extras/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="63" lean-forward="false" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q01_zeros_array/build.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/q01_zeros_array/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="51">
@@ -567,24 +486,37 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q01_zeros_array/tests/test_q01_zeros_array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q03_create_3d_array/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/q02_zeros_reshaped/build.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q02_zeros_reshaped/tests/test_q02_zeros_array_reshaped.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/q02_zeros_reshaped/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="34">
@@ -594,29 +526,21 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q08_get_total_extras/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="63" lean-forward="false" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/q03_create_3d_array/tests/test_q03_create_3d_array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/q04_read_csv_data_to_ndarray/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="17">
@@ -626,9 +550,44 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q04_read_csv_data_to_ndarray/tests/test_q04_read_ipl_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q05_read_csv_data/tests/test_q05_read_ipl_data_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q06_get_unique_matches_count/tests/test_q06_get_unique_matches_count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q07_get_unique_teams_set/tests/test_q07_get_unique_teams_set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="63" lean-forward="true" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q08_get_total_extras/tests/test_q08_get_total_extras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
