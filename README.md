@@ -1,4 +1,4 @@
-# Python Intermediate Assignment
+# Advanced Numpy & Introduction to Pandas
 
 We have already learnt about the basics of Numpy in the in-class session. We have learnt about
 
