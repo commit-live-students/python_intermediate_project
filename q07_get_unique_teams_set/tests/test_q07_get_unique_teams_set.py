@@ -1,5 +1,5 @@
 import sys, os
-sys.path.append(os.path.join(os.path.dirname(os.curdir), '..', '..'))
+sys.path.append(os.path.join(os.path.dirname(os.curdir)))
 
 from unittest import TestCase
 from q07_get_unique_teams_set.build import get_unique_teams_set
