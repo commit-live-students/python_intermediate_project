@@ -27,4 +27,4 @@ In this assignment, we provide the ball-by-ball delivery information of a lot of
 
 So let's get started!
 
-You have an opportunity to earn a total of 650 points by solving all assignments of this project.
+You have an opportunity to earn a total of 450 points by solving all assignments of this project.
