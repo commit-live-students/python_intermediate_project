@@ -1,7 +1,5 @@
 # Default Imports
-import sys, os
-sys.path.append(os.path.join(os.path.dirname(os.curdir),  '..'))
-
 import numpy as np
+path = "./data/ipl_matches_small.csv"
 
-# Write your code here
+# Enter code here

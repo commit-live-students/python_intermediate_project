@@ -1,8 +1,5 @@
-# Default Imports
-import sys, os
-sys.path.append(os.path.join(os.path.dirname(os.curdir),  '..'  ))
-
+# Default imports
 import numpy as np
-from q01_zeros_array.build import zeros_array
+from greyatomlib.python_intermediate.q01_zeros_array.build import  array_zeros
 
 # Write your code

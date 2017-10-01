@@ -1,6 +1,5 @@
-# Default Imports
-import sys, os
-sys.path.append(os.path.join(os.path.dirname(os.curdir),  '..'  ))
-from q06_get_unique_matches_count.build import read_ipl_data_csv
+# Default imports
+from greyatomlib.python_intermediate.q05_read_csv_data.build import read_ipl_data_csv
+path = "data/ipl_matches_small.csv"
 
-# Write your code here
+# Enter Code Here

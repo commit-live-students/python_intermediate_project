@@ -1,9 +1,4 @@
-# Default Imports
-import sys, os
-sys.path.append(os.path.join(os.path.dirname(os.curdir),  '..'  ))
-
+# Default imports
 import numpy as np
 
-# Wirite your code here
-
-
+# Enter code here
