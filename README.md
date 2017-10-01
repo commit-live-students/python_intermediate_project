@@ -26,3 +26,5 @@ In the previous assignment, we have worked with the json/yaml data of ball-by-ba
 In this assignment, we provide the ball-by-ball delivery information of a lot of matches in tabular (CSV) format.
 
 So let's get started!
+
+You have an opportunity to earn a total of 650 points by solving all assignments of this project.
