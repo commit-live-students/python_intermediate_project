@@ -1,4 +1,4 @@
-# Advanced Numpy & Introduction to Pandas
+# Numpy Basics
 
 We have already learnt about the basics of Numpy in the in-class session. We have learnt about
 
