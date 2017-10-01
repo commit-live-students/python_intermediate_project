@@ -5,3 +5,9 @@ import numpy as np
 
 # Your solution
 # Your code here
+zeros_array = np.zeros(shape=(3, 4, 2))
+def array_zeros():
+    zeros_array = np.zeros(shape=(3, 4, 2))
+    return zeros_array
+
+array_zeros()
