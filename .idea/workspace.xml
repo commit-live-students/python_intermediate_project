@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68103cf3-fb03-4d9d-a315-db2d4d2e7693" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/q01_zeros_array/build.ipynb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q01_zeros_array/build.py" afterPath="$PROJECT_DIR$/q01_zeros_array/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q02_zeros_reshaped/build.py" afterPath="$PROJECT_DIR$/q02_zeros_reshaped/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q02_zeros_reshaped/tests/test_q02_zeros_array_reshaped.py" afterPath="$PROJECT_DIR$/q02_zeros_reshaped/tests/test_q02_zeros_array_reshaped.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q03_create_3d_array/build.py" afterPath="$PROJECT_DIR$/q03_create_3d_array/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q04_read_csv_data_to_ndarray/build.py" afterPath="$PROJECT_DIR$/q04_read_csv_data_to_ndarray/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q04_read_csv_data_to_ndarray/tests/test_q04_read_ipl_data.py" afterPath="$PROJECT_DIR$/q04_read_csv_data_to_ndarray/tests/test_q04_read_ipl_data.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q05_read_csv_data/build.py" afterPath="$PROJECT_DIR$/q05_read_csv_data/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q06_get_unique_matches_count/build.py" afterPath="$PROJECT_DIR$/q06_get_unique_matches_count/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q07_get_unique_teams_set/build.py" afterPath="$PROJECT_DIR$/q07_get_unique_teams_set/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q08_get_total_extras/build.py" afterPath="$PROJECT_DIR$/q08_get_total_extras/build.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q05_read_csv_data/tests/test_q05_read_ipl_data_csv.py" afterPath="$PROJECT_DIR$/q05_read_csv_data/tests/test_q05_read_ipl_data_csv.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,71 +24,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/q02_zeros_reshaped/build.py">
+      <file leaf-file-name="test_q03_create_3d_array.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/q03_create_3d_array/tests/test_q03_create_3d_array.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/q03_create_3d_array/build.py">
+      <file leaf-file-name="test_q04_read_ipl_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/q04_read_csv_data_to_ndarray/tests/test_q04_read_ipl_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/q04_read_csv_data_to_ndarray/build.py">
+      <file leaf-file-name="test_q05_read_ipl_data_csv.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/q05_read_csv_data/tests/test_q05_read_ipl_data_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/q06_get_unique_matches_count/build.py">
+      <file leaf-file-name="test_q06_get_unique_matches_count.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/q06_get_unique_matches_count/tests/test_q06_get_unique_matches_count.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/q07_get_unique_teams_set/build.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/q08_get_total_extras/build.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/q05_read_csv_data/build.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,11 +74,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_q08_get_total_extras.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_q08_get_total_extras.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/q08_get_total_extras/tests/test_q08_get_total_extras.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/q07_get_unique_teams_set/build.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/q08_get_total_extras/build.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_q01_zeros_array.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/q01_zeros_array/tests/test_q01_zeros_array.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -146,7 +136,6 @@
         <option value="$PROJECT_DIR$/q02_zeros_reshaped/tests/test_q02_zeros_array_reshaped.py" />
         <option value="$PROJECT_DIR$/q03_create_3d_array/tests/test_q03_create_3d_array.py" />
         <option value="$PROJECT_DIR$/q04_read_csv_data_to_ndarray/tests/test_q04_read_ipl_data.py" />
-        <option value="$PROJECT_DIR$/q05_read_csv_data/tests/test_q05_read_ipl_data_csv.py" />
         <option value="$PROJECT_DIR$/q06_get_unique_matches_count/tests/test_q06_get_unique_matches_count.py" />
         <option value="$PROJECT_DIR$/q07_get_unique_teams_set/tests/test_q07_get_unique_teams_set.py" />
         <option value="$PROJECT_DIR$/q08_get_total_extras/tests/test_q08_get_total_extras.py" />
@@ -158,6 +147,7 @@
         <option value="$PROJECT_DIR$/q06_get_unique_matches_count/build.py" />
         <option value="$PROJECT_DIR$/q07_get_unique_teams_set/build.py" />
         <option value="$PROJECT_DIR$/q08_get_total_extras/build.py" />
+        <option value="$PROJECT_DIR$/q05_read_csv_data/tests/test_q05_read_ipl_data_csv.py" />
       </list>
     </option>
   </component>
@@ -510,34 +500,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q01_zeros_array/tests/test_q01_zeros_array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/q02_zeros_reshaped/tests/test_q02_zeros_array_reshaped.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q03_create_3d_array/tests/test_q03_create_3d_array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q04_read_csv_data_to_ndarray/tests/test_q04_read_ipl_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -550,50 +516,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q05_read_csv_data/tests/test_q05_read_ipl_data_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q06_get_unique_matches_count/tests/test_q06_get_unique_matches_count.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q07_get_unique_teams_set/tests/test_q07_get_unique_teams_set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q08_get_total_extras/tests/test_q08_get_total_extras.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/q05_read_csv_data/build.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q01_zeros_array/build.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -642,6 +568,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q01_zeros_array/build.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q01_zeros_array/tests/test_q01_zeros_array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q03_create_3d_array/tests/test_q03_create_3d_array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q04_read_csv_data_to_ndarray/tests/test_q04_read_ipl_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q05_read_csv_data/tests/test_q05_read_ipl_data_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q06_get_unique_matches_count/tests/test_q06_get_unique_matches_count.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q07_get_unique_teams_set/tests/test_q07_get_unique_teams_set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q08_get_total_extras/tests/test_q08_get_total_extras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
