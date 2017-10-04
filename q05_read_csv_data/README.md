@@ -5,7 +5,7 @@ Cool, now that you accustomed with handling data set , we should probably
 try to store it and play with it. 
 
 **The function should**
-- Be named as `read_csv_data`.
+- Be named as `read_ipl_data_csv`.
 - The variable should be named `ipl_matches_array`
 - The dtype of the `ipl_matches_array` array should be `|S50`
 
