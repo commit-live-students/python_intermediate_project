@@ -2,7 +2,7 @@
 
 Well done, by this time you have learnt to extract data and store it in variables.
 Also, you have learnt how to find unique values and toy with it.
-Now we will learn about how to apply basic algebric operations.
+Now we will learn about how to apply basic algebraic operations.
 
 **The function should**
  
@@ -12,6 +12,10 @@ Now we will learn about how to apply basic algebric operations.
 - Should return an integer sum of extras scored in all matches
 
 This exercise will help you learn about various inbuilt algebric function and application of that.
+
+
+(P.S. This is the last assignment!)
+
 
 #### Parameters:
 
