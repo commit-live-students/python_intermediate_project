@@ -1,9 +1,9 @@
 ## Analyzing IPL Matches
 
 
-Wow feeling like expert huh..
+Wow feeling like an expert huh!!..
 Now let's grab some knowledge related to loading of data.
-Your job is to create a function that returns a numpy array when given apath to csv file.
+Your job is to create a function that returns a numpy array when given a path to csv file.
 
 **The function should**
 - Be named `read_csv_data_to_ndarray`
@@ -23,7 +23,7 @@ By executing this task you can learn the basic operation of reading a csv file a
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- |
 | path | string | compulsory |  | path to the file csv |
-| dtype | Float | optional |  |  |
+| dtype | Float | optional | np.float64 | data type |
 
 #### Returns:
 
