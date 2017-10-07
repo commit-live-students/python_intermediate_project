@@ -2,4 +2,5 @@
 import numpy as np
 path = "./data/ipl_matches_small.csv"
 
-# Enter code here
+def read_csv_data_to_ndarray(filepath,input_dtype,skip_header):
+    return np.genfromtxt(filepath, dtype=input_dtype,skip_header=1,delimeter=',')
