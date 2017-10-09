@@ -5,4 +5,9 @@ import numpy as np
 
 # Your solution
 
+def array_zeros():
+# Your solution
 
+    zeros_array = np.zeros((3,4,2))
+
+    return zeros_array
