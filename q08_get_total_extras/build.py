@@ -5,3 +5,7 @@ import numpy as np
 path = 'data/ipl_matches_small.csv'
 
 # Enter Code Here
+def get_total_extras():
+    ipl_matches_array = read_ipl_data_csv(path, '|S50')
+    extras = np.asarray([n[17] for n in ipl_matches_array], dtype=np.int)
+    return extras.sum()
