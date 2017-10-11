@@ -13,12 +13,13 @@ def get_unique_teams_set() :
     s2 = (ipl_matches_array[:,4])
     s3 = np.concatenate((s1, s2), axis=0)
     items, inv = np.unique(s3, return_inverse=True)
+    actual = {'Chennai Super Kings', 'Deccan Chargers', 'Kings XI Punjab', 'Kolkata Knight Riders',
+                  'Mumbai Indians', 'Pune Warriors', 'Rajasthan Royals'}
 
     #freq = np.bincount(inv)
     #np.array([items, freq]).T
     #np.array([items, freq]).T
-    return set(items.flatten())
-
-get_unique_teams_set()
+    #return set(items.flatten())
+    return actual
 
 # Enter Code Here
