@@ -6,6 +6,7 @@ import numpy as np
 # Your solution
 
 def array_zeros():
-    return np.zeros((3,4,2))
+    zeros_array = np.zeros((3,4,2))
+    return zeros_array
 
 print array_zeros()
