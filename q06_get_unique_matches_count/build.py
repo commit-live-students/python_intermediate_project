@@ -5,10 +5,10 @@ path = 'data/ipl_matches_small.csv'
 
 # Enter Code Here
 def get_unique_matches_count():
-    print(np.version.version)
+    #print(np.version.version)
     ipl_matches_array = read_ipl_data_csv(path,dtype='|S50')
-    print(ipl_matches_array.shape)
-    print(type(ipl_matches_array))
+    #print(ipl_matches_array.shape)
+    #print(type(ipl_matches_array))
     #unique, counts = np.unique(ipl_matches_array[:,[0]], return_counts = True)
     #print(counts)
     test = np.unique(ipl_matches_array[:,[0]])
