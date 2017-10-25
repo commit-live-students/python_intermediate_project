@@ -1,1 +1,0 @@
-{"stats": {"passes": 1, "skipped": 0, "encoding": "UTF-8", "errors": 0, "failures": 0, "total": 1}, "results": [{"classname": "python_intermediate_project.q01_zeros_array.tests.test_q01_zeros_array:TestZeros_array", "type": "success", "name": "test_zeros_array", "time": 0.0009851455688476562}]}
