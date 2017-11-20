@@ -3,8 +3,8 @@ import numpy as np
 from greyatomlib.python_intermediate.q01_zeros_array.build import  array_zeros
 
 # Write your code
-def zeros_array():
+def array_reshaped_zeros():
 
-    zeros_array=np.zeros((3,4,2))
+    zeros_array_reshaped=np.zeros((2,3,4))
 
-    return (zeros_array)
+    return zeros_array_reshaped
