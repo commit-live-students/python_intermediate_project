@@ -1,15 +1,18 @@
-## Create a numpy array of all zeros, with dimensions (3,4,2)
+# Create a numpy array of all zeros, with dimensions (3,4,2)
 
 Let's start with a warm up task. 
-We will create a variable named as zeros_array containing all zeros and having dimensions 
-(3, 4, 2)
 
-You need to write a function array_zeros() which assigns the variable zeros_array with numpy array of all zeros.
+## Write a function `array_zeros` that :
+* Will create a variable named as `zeros_array` with numpy array of dimensions (3, 4, 2)
+* Assigns that variable with numpy array of all zeros.
 
-## Parameters:
+### Parameters:
 This function takes in no parameters
 
-## Returns
-This function returns an array of dimensions (3,4,2)
+### Returns:
+| Return | dtype | description |
+| --- | --- | --- |
+| variable zeros_array | numpy.ndarray | An array of dimensions (3,4,2)|
+
 
 
