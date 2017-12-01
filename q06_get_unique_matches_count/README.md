@@ -1,21 +1,18 @@
-## Create a function which calculates the unique no. of matches does the provided dataset ?
+# Create a function which calculates the unique no. of matches does the provided dataset ?
 
 Awesome now that you have learnt how to fetch data ,its time to do some data manipulation.
-Your job is to create function which calculates the unique no. of matches.
 
-**The function should**
-- Be named `get_unique_matches_count`
-- Work on the previously created `ipl_matches_array` object
-- Should return an integer count of all MATCHES (not deliveries) that this data represents
+## Write a function `get_unique_matches_count` that:
+- Creates a variable named as `ipl_matches_array` and stores integer count of all MATCHES (not deliveries) that this data represents.
 
 This exercise will help you in dealing with unique values in particular variable.
 
-#### Parameters:
+### Parameters:
 
 This function takes in no parameters
 
-#### Returns:
+### Returns:
 
 | Return | dtype | description |
 | --- | --- | --- |
-| Count | Int| No.of counts of unique values |
+| variable | Int| No.of counts of unique values |
