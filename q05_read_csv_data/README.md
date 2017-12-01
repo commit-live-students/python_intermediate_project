@@ -21,4 +21,4 @@ This task will provide help you to learn how to load a structured data(csv) in t
 | --- | --- | --- |
 | Numpy array | ndarray | Array containing data set values |
 
-Note : dtype should be provided as 'S|50'
+Note : dtype should be provided as '|S50'
