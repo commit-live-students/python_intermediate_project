@@ -1,4 +1,4 @@
-# Reshape the above-created zeros_array to dimensions (2,3## W
+# Reshape the above-created zeros_array to dimensions (2,3,4)
 Great,now that you have learnt how to create numpy arrays, let's start experimenting by saving the value in a variable named zeros_array_reshaped
 
 ## Write a function `array_reshaped_zeros` that :
