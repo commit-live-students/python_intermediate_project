@@ -1,24 +1,22 @@
-## Create a function to read a csv file and save it in variable.
-
+# Read a csv file and save it in variable.
 
 Cool, now that you accustomed with handling data set , we should probably 
 try to store it and play with it. 
 
-**The function should**
-- Be named as `read_ipl_data_csv`.
-- The variable should be named `ipl_matches_array`
-- The dtype of the `ipl_matches_array` array should be `|S50`
+## Write a function`read_ipl_data_csv` that:
+- Reads the data from the csv file using the function `np.genfromtxt` and stores it into a variable named as `ipl_matches_array`.
 
 This task will provide help you to learn how to load a structured data(csv) in tabular format.
+Note : dtype should be provided as 'S|50'
 
-#### Parameters:
+### Parameters:
 
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- |
 | path | string | compulsory |  | path to the file csv |
 | dtype | Float | optional |  |  |
 
-#### Returns:
+### Returns:
 
 | Return | dtype | description |
 | --- | --- | --- |
