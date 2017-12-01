@@ -7,7 +7,6 @@ try to store it and play with it.
 - Reads the data from the csv file using the function `np.genfromtxt` and stores it into a variable named as `ipl_matches_array`.
 
 This task will provide help you to learn how to load a structured data(csv) in tabular format.
-Note : dtype should be provided as 'S|50'
 
 ### Parameters:
 
@@ -21,3 +20,5 @@ Note : dtype should be provided as 'S|50'
 | Return | dtype | description |
 | --- | --- | --- |
 | Numpy array | ndarray | Array containing data set values |
+
+Note : dtype should be provided as 'S|50'
