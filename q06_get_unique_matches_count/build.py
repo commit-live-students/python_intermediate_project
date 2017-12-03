@@ -6,13 +6,9 @@ path = 'data/ipl_matches_small.csv'
 import numpy as np
 
 def get_unique_matches_count():
-    #count = 0
     f1 = read_ipl_data_csv(path,dtype='|S50')
     #print type(f1)
-    ipl_matches_array = np.unique(f1[:,0],return_counts=True)
-    #print type(ipl_matches_array)
+    ipl_matches_array = np.unique(f1[:,0])
+    #print ipl_matches_array
 
-    return ipl_matches_array
-
-
-print get_unique_matches_count()
+    return len(ipl_matches_array)
