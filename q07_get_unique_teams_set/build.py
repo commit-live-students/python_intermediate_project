@@ -6,4 +6,4 @@ path = "data/ipl_matches_small.csv"
 # Enter Code Here
 def get_unique_teams_set():
     ipl_matches_array = np.genfromtxt(path,dtype='|S100', skip_header=1, delimiter=",")
-    return set((np.unique(ipl_matches_array[...,3]))) | set((np.unique(ipl_matches_array[...,4])))
+    return set((np.unique(ipl_matches_array[...,3:5])))
