@@ -1,11 +1,11 @@
-# Default Imports
+# Default imports
 import numpy as np
 
 path = "./data/ipl_matches_small.csv"
-dttype = 'str'
+dttype = '|S50'
 
-def read_csv_data_to_ndarray(path_par, dttype):
-    data = np.loadtxt(path_par, delimiter=",", skiprows=1,dtype=dttype)
-    return data
+def read_ipl_data_csv(path_par, dtype='|S50'):
+    ipl_matches_array = np.genfromtxt(path_par, dtype=dtype, delimiter=",", skip_header=1)
+    return ipl_matches_array
 
-print read_csv_data_to_ndarray(path, dttype)
+print read_ipl_data_csv(path, dtype='|S50')
