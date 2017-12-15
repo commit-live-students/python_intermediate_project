@@ -6,9 +6,7 @@ import numpy as np
 from unittest import TestCase
 from q03_create_3d_array.build import create_3d_array
 
-class TestCreate_3d_array(TestCase):
-    def test_create_3d_array(self):
-        actual = [
+actual = [
             [[0, 1, 2],
              [3, 4, 5],
              [6, 7, 8]],
@@ -21,6 +19,10 @@ class TestCreate_3d_array(TestCase):
              [21, 22, 23],
              [24, 25, 26]]
         ]
-        arr = create_3d_array()
+arr = create_3d_array()
 
-        self.assertTrue(np.all(arr == actual))
+class TestCreate_3d_array(TestCase):
+    def test_create_3d_array_return_value(self):
+        
+
+        self.assertTrue(np.all(arr == actual),"The Expected array does not match returned array")
