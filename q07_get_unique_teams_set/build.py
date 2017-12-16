@@ -4,8 +4,9 @@ import pandas as pd
 path = "data/ipl_matches_small.csv"
 
 # Enter Code Here
-def get_unique_matches_count(path):
-    ipl_matches_array = pd.read_csv(path)
-    count = ipl_matches_array.groupby('match_code').size()
-    ipl_matches_array = count.count()
-    return ipl_matches_array
+def get_unique_teams_set():
+    data = pd.read_csv(path,dtype='|S50')
+    team1 = set(data['team1'])
+    team2 = set(data['team2'])
+    teams = team1 | team2
+    return teams
