@@ -2,5 +2,10 @@
 import numpy as np
 
 #Enter solution here
-array = np.arrange(9).reshape((3,3,3))
-print array
+def create_3d_array():
+
+    #array = np.arange(9)
+    #array = array.reshape((3,3,3))
+
+    array = np.arange(27).reshape((3,3,3))
+    return array
