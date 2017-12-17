@@ -4,4 +4,9 @@ import numpy as np
 
 path = 'data/ipl_matches_small.csv'
 
-# Enter Code Here
+def get_total_extras():
+    extras=0
+    ipl_match=read_ipl_data_csv(path=path,dtype='|S50')
+    for matches in ipl_match:
+        extras=extras+int(matches[17])
+    return extras
