@@ -8,7 +8,7 @@ def get_unique_teams_set():
     ipl_matches_array=read_ipl_data_csv(path,'|S50')
     team1= np.unique(ipl_matches_array[:,3])
     team2= np.unique(ipl_matches_array[:,4])
-    val= np.union1d(team1,team2)
+    val= set(np.union1d(team1,team2))
     #print type(val)
     return val
 get_unique_teams_set()
