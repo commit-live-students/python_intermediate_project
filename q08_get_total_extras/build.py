@@ -5,3 +5,8 @@ import numpy as np
 path = 'data/ipl_matches_small.csv'
 
 # Enter Code Here
+
+def get_total_extras():
+        extrasdata = read_ipl_data_csv(path,dtype = '|S100')
+
+        return np.sum(extrasdata[:,[17]].astype(int))
