@@ -20,7 +20,7 @@ def array_reshaped_zeros():
     )
     d = np.array(zeros_array)
     a = np.zeros((3,4,2)) #another array
-    zeros_array = a
-    zeros_array_reshaped = np.reshape(zeros_array, (2,3,4))
+    d = a
+    zeros_array_reshaped = np.reshape(d, (2,3,4))
     return zeros_array_reshaped
 
