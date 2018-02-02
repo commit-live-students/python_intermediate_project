@@ -6,7 +6,7 @@ import numpy as np
 # Enter Code Here
 def get_unique_matches_count():
     narray = np.genfromtxt(path, dtype=np.float, skip_header=1, delimiter=',')
-    matches = narray[:,0]
+    matches = narray[:,0] # get list of all match codes only
     #print type(matches)
 
     unique_matches = np.unique(matches, return_counts=False)
