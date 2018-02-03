@@ -2,14 +2,12 @@
 import numpy as np
 
 def create_3d_array():
-    a = len(np.zeros((3,3,3)))
+    c = np.zeros([3, 3, 3])
+    N = c.size
 
-    b = np.arange(0, a)
+    reshaped = np.arange(N).reshape(3, 3, 3)
+    return reshaped
 
-    reshaped = np.reshape(b, (3, 3, 3))
-    print reshaped
 
-    #b = np.reshape(a, (3, 3, 3))
-    #print b
 create_3d_array()
     
