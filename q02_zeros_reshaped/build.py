@@ -3,20 +3,6 @@ import numpy as np
 from greyatomlib.python_intermediate.q01_zeros_array.build import  array_zeros
 
 # Write your code
-def array_zeros(self):
-       self.pcm = [
-        [[0,0],
-         [0,0],
-         [0,0],
-         [0,0]],
-        [[0,0],
-         [0,0],
-         [0,0],
-         [0,0]],
-        [[0,0],
-         [0,0],
-         [0,0],
-         [0,0]]
-]
-    zeros_array = np.array(pcm)
-return zeros_array
+def array_reshaped_zeros():
+    zeros_array_reshaped = array_zeros().reshape(2,3,4)
+    return zeros_array_reshaped
