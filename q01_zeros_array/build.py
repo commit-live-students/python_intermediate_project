@@ -5,19 +5,5 @@ import numpy as np
 
 # Your solution
 def array_zeros():
-    pcm = [
-        [[0,0],
-         [0,0],
-         [0,0],
-         [0,0]],
-        [[0,0],
-         [0,0],
-         [0,0],
-         [0,0]],
-        [[0,0],
-         [0,0],
-         [0,0],
-         [0,0]]
-]
-    zeros_array = np.array(pcm)
+    zeros_array = np.zeros
     return zeros_array
