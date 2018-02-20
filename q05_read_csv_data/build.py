@@ -1,8 +1,12 @@
+# %load q05_read_csv_data/build.py
+# Default imports
 import numpy as np
-from io import BytesIO
 
-path = "./data/ipl_matches_small.csv"
+path = './data/ipl_matches_small.csv'
 
-def read_ipl_data_csv():
-    ipl_matches_array=np.genfromtxt(BytesIO(path),skip_header=1,delimiter=",",dtype="|S50")
-    return ipl_matches_array
+
+
+def read_ipl_data_csv(path):
+    return np.genfromtxt(path,skip_header=1,delimiter=',')
+
+print read_ipl_data_csv(path)
