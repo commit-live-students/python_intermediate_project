@@ -9,4 +9,3 @@ class TestGet_total_extras(TestCase):
     def test_get_total_extras_return_values(self):
         runs = get_total_extras()
         self.assertTrue(runs == 88,"The Expected value does not match return value")
-

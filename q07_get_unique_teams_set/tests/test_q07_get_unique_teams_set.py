@@ -7,6 +7,6 @@ from q07_get_unique_teams_set.build import get_unique_teams_set
 class TestGet_unique_teams_set(TestCase):
     def test_get_unique_teams_set_return(self):
         teams = get_unique_teams_set()
-        actual = {'Chennai Super Kings', 'Deccan Chargers', 'Kings XI Punjab', 'Kolkata Knight Riders',
-                  'Mumbai Indians', 'Pune Warriors', 'Rajasthan Royals'}
-        self.assertTrue(teams == actual,"The Expected teams do not match the actual teams")
+        actual = {b'Deccan Chargers', b'Kings XI Punjab', b'Chennai Super Kings', b'Mumbai Indians',
+                  b'Rajasthan Royals', b'Pune Warriors', b'Kolkata Knight Riders'}
+        self.assertEqual(teams, actual, "The Expected teams do not match the actual teams")

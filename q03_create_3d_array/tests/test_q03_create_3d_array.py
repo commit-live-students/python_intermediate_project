@@ -21,8 +21,7 @@ actual = [
         ]
 arr = create_3d_array()
 
+
 class TestCreate_3d_array(TestCase):
     def test_create_3d_array_return_value(self):
-        
-
-        self.assertTrue(np.all(arr == actual),"The Expected array does not match returned array")
+        self.assertTrue(np.all(arr == actual), "The Expected array does not match returned array")
