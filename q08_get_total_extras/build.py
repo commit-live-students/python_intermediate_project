@@ -7,12 +7,5 @@ path = 'data/ipl_matches_small.csv'
 
 def get_total_extras():
     extras = np.genfromtxt(path, dtype=None, delimiter=',', skip_header=1,usecols=(17)) #read csv file
-    #print extras
-    #print len(extras)
-    i = 0
-    extra_runs = 0
-    while i < len(extras):
-        extra_runs += extras[i] 
-        i+=1
-    return extra_runs
+    return extras.sum()
 
