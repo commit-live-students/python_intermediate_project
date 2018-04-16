@@ -9,7 +9,7 @@ def read_ipl_data_csv(path, dtype=np.float):
     data = np.genfromtxt(path, dtype, delimiter=',', skip_header=1)
     return data
 
-ipl_matches_array = re
-read_ipl_data_csv(path, dtype='|S50')
+ipl_matches_array = read_ipl_data_csv(path, dtype='|S50')
+
 
 
