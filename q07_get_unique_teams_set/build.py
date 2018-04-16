@@ -12,16 +12,4 @@ def get_unique_teams_set():
     return team1.union(team2)
 
 
-d = get_unique_teams_set()
-d
-from unittest import TestCase
-class T(TestCase):
-    def test_get_unique_teams_set_return(self):
-        teams = get_unique_teams_set()
-        actual = {b'Deccan Chargers', b'Kings XI Punjab', b'Chennai Super Kings', b'Mumbai Indians',
-                  b'Rajasthan Royals', b'Pune Warriors', b'Kolkata Knight Riders'}
-        self.assertEqual(teams, actual, 'The Expected teams do not match the actual teams')
-t = T()
-t.test_get_unique_teams_set_return()
-
 
