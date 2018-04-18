@@ -2,8 +2,11 @@
 import numpy as np
 
 # Enter solution here
+
 def create_3d_array():
-    arr=np.zeros((3,3,3))
-    print(arr)
+    n=28
+    arr=np.arange(n-1)
+    arr=arr.reshape(3,3,3)
+    #print(arr)
     return arr
 create_3d_array()
