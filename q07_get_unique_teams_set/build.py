@@ -6,7 +6,7 @@ path = 'data/ipl_matches_small.csv'
 
 # Enter Code Here
 def get_unique_teams_set():
-    ipl_matches_array =  read_ipl_data_csv(path,'|S20')
+    ipl_matches_array =  read_ipl_data_csv(path,'|S50')
     team1 = ipl_matches_array[:,3].astype(np.object)
     team1 = np.unique(team1)    
 #     print(team1)
@@ -15,8 +15,10 @@ def get_unique_teams_set():
 #     print(team2)
     teams = np.union1d(team1,team2)
 #     print(teams)
-    teams = np.unique(teams)
-    return teams 
+#     teams = np.unique(teams)
+    teamsset = set(teams)
+#     print(type(teamsset))
+    return teamsset 
 #     
     
 get_unique_teams_set()
