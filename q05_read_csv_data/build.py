@@ -3,9 +3,8 @@
 import numpy as np
 path = './data/ipl_matches_small.csv'
 # Enter code here
-def read_ipl_data_csv():
-    ipl_matches_array = np.genfromtxt(path, delimiter=',',dtype=None)
-    return ipl_matches_array
-read_ipl_data_csv()
+def read_ipl_data_csv(path,dtype):
+    return np.genfromtxt(path, delimiter=',',skip_header=1,dtype=dtype)
+
 
 
