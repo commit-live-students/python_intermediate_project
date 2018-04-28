@@ -6,7 +6,7 @@ from greyatomlib.python_intermediate.q01_zeros_array.build import  array_zeros
 # Write your code
 def array_reshaped_zeros():
     zeros_array=np.zeros((3,4,2))
-    zeros_array=zeros_array.reshape((4,3,2)).transpose()
+    zeros_array=zeros_array.reshape((2,3,4)).transpose()
     return zeros_array
         
 
