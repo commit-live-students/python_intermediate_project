@@ -6,7 +6,7 @@ path = './data/ipl_matches_small.csv'
 from numpy import genfromtxt
 
 # Enter code here
-def read_csv_data_to_ndarray(path,str):
+def read_csv_data_to_ndarray(path,datatype):
     return np.genfromtxt(path, delimiter=',',dtype=str,skip_header=1)
 
 
