@@ -10,4 +10,4 @@ def read_ipl_data_csv(path, dtype):
     return ipl_matches_array
 
 data = read_ipl_data_csv(path, dtype)
-print data
+print(data)
