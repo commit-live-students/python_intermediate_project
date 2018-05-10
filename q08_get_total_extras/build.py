@@ -5,3 +5,6 @@ import numpy as np
 path = 'data/ipl_matches_small.csv'
 
 # Enter Code Here
+sum=0
+with open(path) as f:
+    
