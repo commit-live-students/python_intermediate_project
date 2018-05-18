@@ -7,15 +7,12 @@ import pandas as pd
 
 # Enter Code Here
 def get_unique_teams_set():
-    l=read_ipl_data_csv(path,dtype='a')
-    l=np.array(l)    
-    #a=l[1:,4]
-    #b=l[1:,3]
-    c=np.union1d(l[1:,4],l[1:,3])
-    return (c)
+    l=read_ipl_data_csv(path,dtype='|S50')
+    team1=set(l[:,3])
+    team2=set(l[:,4])
 
-#print(get_unique_teams_set())
-
+    teams=set().union(*[team1, team2])
+    return(teams)
 
 
 
