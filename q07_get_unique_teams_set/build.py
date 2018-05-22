@@ -18,6 +18,5 @@ def get_unique_teams_set():
                 team_2.add(data[i][4])
         
     return (team_1.union(team_2))
-get_unique_teams_set()
 
 
