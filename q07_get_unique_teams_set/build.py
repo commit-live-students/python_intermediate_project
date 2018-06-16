@@ -9,8 +9,10 @@ def get_unique_teams_set():
     team2=np.genfromtxt(path, delimiter=',',dtype=str)[1:,[4]]
     team1=np.unique(team1)
     team2=np.unique(team2)
-    team3=np.union1d(team1,team2)
-    return team3
+    return np.union1d(team1,team2)
 
 get_unique_teams_set()
+
+
+
 
