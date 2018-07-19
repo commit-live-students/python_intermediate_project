@@ -9,5 +9,6 @@ def array_reshaped_zeros():
     return a.reshape(2,3,4)
     
 b =array_reshaped_zeros()
+clive submit python_intermediate_project:q02_zeros_reshaped
 
 
