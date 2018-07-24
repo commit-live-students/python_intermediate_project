@@ -8,7 +8,7 @@ data_type='|S50'
 
 
 def read_ipl_data_csv(path,dtype):
-    ipl_matches_array=np.genfromtxt(path,dtype=data_type,delimiter=',',skip_header=1)
+    ipl_matches_array=np.genfromtxt(path,dtype=dtype,delimiter=',',skip_header=1)
     return ipl_matches_array
 
 read_ipl_data_csv(path,data_type)
