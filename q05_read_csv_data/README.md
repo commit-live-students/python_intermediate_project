@@ -13,7 +13,7 @@ This task will provide help you to learn how to load a structured data(csv) in t
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- |
 | path | string | compulsory |  | path to the file csv |
-| dtype | Float | optional | np.float64 |  |
+| dtype | Float | compulsory | np.float64 |  |
 
 ### Returns:
 
