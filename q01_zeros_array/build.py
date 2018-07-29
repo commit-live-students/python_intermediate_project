@@ -6,8 +6,8 @@ import numpy as np
 
 # Your solution
 def array_zeros():
-    np_arr=np.zeros(shape=(3,4,2))
-    return np_arr
+    zeros_array=np.zeros(shape=(3,4,2))
+    return zeros_array
 
 
 array_zeros()
