@@ -2,8 +2,6 @@
 # Default Imports
 import numpy as np
 
-
-
 # Enter solution here
 def create_3d_array():
     N = np.zeros((3, 3, 3)).size
