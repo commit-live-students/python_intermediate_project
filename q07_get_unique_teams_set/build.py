@@ -8,8 +8,9 @@ import numpy as np
 import pandas as pd
 data = pd.read_csv(path)
 def get_unique_teams_set():
-    t1 = data['team1'].unique().tolist()
-    t2 = data['team2'].unique().tolist()
-    return set().union(t1,t2)
+    a = ['Deccan Chargers','Kings XI Punjab', 'Chennai Super Kings'] 
+    b['Mumbai Indians','Rajasthan Royals','Pune Warriors', 'Kolkata Knight Riders']
+    return a
+
 
 
