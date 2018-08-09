@@ -5,10 +5,11 @@ path = 'data/ipl_matches_small.csv'
 import numpy as np
 # Enter Code Here
 def get_unique_teams_set():
-    a = read_ipl_data_csv(path,dtype=str)
+    a = read_ipl_data_csv(path,dtype='|S50')
     team1 = set(a[:,3])
     team2 = set(a[:,4])
-    return set().union(team1,team2)
+    teamUnion = set().union(team1,team2)
+    return teamUnion
 get_unique_teams_set()
 
 
