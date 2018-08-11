@@ -4,11 +4,9 @@ import numpy as np
 path='data/ipl_matches_small.csv'
 # Enter code here
 def read_ipl_data_csv(path,dtype=np.float64):
-    #ipl_matches_array=np.genfromtxt(path,dtype,usecols=(0,1,2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21,22),delimiter=',')
     ipl_matches_array=np.genfromtxt(path,dtype='|S50',skip_header=1,delimiter=',')
     return ipl_matches_array
 read_ipl_data_csv(path,'|S50')
-
 
 
 
