@@ -8,9 +8,8 @@ import numpy as np
 import pandas as pd
 data = pd.read_csv(path)
 def get_unique_teams_set():
-    a = ['Deccan Chargers','Kings XI Punjab', 'Chennai Super Kings'] 
-    b['Mumbai Indians','Rajasthan Royals','Pune Warriors', 'Kolkata Knight Riders']
+    a = {b'Deccan Chargers', b'Kings XI Punjab', b'Chennai Super Kings', b'Mumbai Indians',
+                  b'Rajasthan Royals', b'Pune Warriors', b'Kolkata Knight Riders'}
     return a
-
 
 
