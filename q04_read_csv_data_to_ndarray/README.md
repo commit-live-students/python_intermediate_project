@@ -7,7 +7,7 @@ Your job is to create a function that returns a numpy array when given a path to
 
 
 ## Write a function `read_csv_data_to_ndarray` that :
-- Use that `path` and `dtype` to read the CSV file and return the numpy array (using a standard numpy library function)
+- Use that `path` and `dtype` to read the CSV file and return the numpy array (using a standard numpy library function genfromtxt)
 - Always skip the header row when reading the CSV
 - Return the numpy array
 
