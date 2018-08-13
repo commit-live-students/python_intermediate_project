@@ -7,11 +7,9 @@ path = 'data/ipl_matches_small.csv'
 # Enter Code Here
 
 def get_unique_matches_count():
-    ipl_matches_array=np.genfromtxt(path,dtype='|S20',skip_header=1,delimiter=',')
-    x=ipl_matches_array[:,4]
-    y=ipl_matches_array[:,5]
-    z=np.array(list(x)+list(y))
-    return np.count_nonzero(np.unique(z))
+    ipl_matches_array=np.genfromtxt(path,dtype='|S50',skip_header=1,delimiter=',')
+    x=ipl_matches_array[:,1]
+    return np.count_nonzero(np.unique(x))
 get_unique_matches_count()
 
 
