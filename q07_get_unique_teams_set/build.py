@@ -9,7 +9,8 @@ def get_unique_teams_set():
     ipl_matches_array = np.genfromtxt('./data/ipl_matches_small.csv', dtype='|S50', delimiter=',', skip_header=1)
     unique_teams1 = np.unique(ipl_matches_array[:, 3])
     unique_teams2 = np.unique(ipl_matches_array[:, 4])
-    teams_union = np.union1d(unique_teams1, unique_teams2)
+    teams_union = set(np.union1d(unique_teams1, unique_teams2).flatten())
     return teams_union
+
 
 
