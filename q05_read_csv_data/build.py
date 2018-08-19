@@ -2,12 +2,16 @@
 # Default imports
 import numpy as np
 
-def read_ipl_data_csv():
-    path = './data/ipl_matches_small.csv'
-    ipl_matches_array = np.genfromtxt(path, delimiter=',',dtype='|S50')
+path = 'data/ipl_matches_small.csv'
+dtype= '|S50'
+
+
+def read_ipl_data_csv(path,dtype):
+    ipl_matches_array = np.genfromtxt(path,delimiter=',',dtype='|S50',skip_header=1)
     return ipl_matches_array
 
-read_ipl_data_csv()
+read_ipl_data_csv(path, dtype)
+
     
 # Enter code here
 
