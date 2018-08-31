@@ -1,5 +1,17 @@
+# %load q06_get_unique_matches_count/build.py
 # Default imports
-from greyatomlib.python_intermediate.q05_read_csv_data.build import read_ipl_data_csv
+import numpy as np
+import pandas as pd
 path = 'data/ipl_matches_small.csv'
+dtype = float
 
-# Enter Code Here
+def get_unique_matches_count():
+    ipl_matches = pd.read_csv(path)
+    ipl_matches_array = ipl_matches['match_code'].nunique()
+    return ipl_matches_array         
+    
+          
+        
+    
+
+
