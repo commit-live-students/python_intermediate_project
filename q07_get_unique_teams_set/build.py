@@ -10,16 +10,16 @@ column_2 = set()
 def get_unique_teams_set():
     df = pd.read_csv(path)
     for i in range(0,len(df['match_code'])):
-        team1 = df['team1'][i]
-        team2 = df['team2'][i]
+        team1 = df['team1'][i].encode('UTF-8')
+        team2 = df['team2'][i].encode('UTF-8')
         if team1 not in column_1:
             column_1.add(team1)
             
         if team2 not in column_2:
             column_2.add(team2)
     
-    return column_1 | column_2
-
+    return (column_1 | column_2)
+#get_unique_teams_set()
 
 
 
