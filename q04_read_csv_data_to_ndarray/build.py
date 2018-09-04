@@ -5,7 +5,7 @@ path = './data/ipl_matches_small.csv'
 
 # Enter code here
 def read_csv_data_to_ndarray(path):
-    ipl_array=np.genfromtxt(path, skip_header=1, delimiter=',')
+    ipl_array=np.genfromtxt(path, dtype='|S50', skip_header=1, delimiter=',')
     return(ipl_array)
     
 read_csv_data_to_ndarray(path)
