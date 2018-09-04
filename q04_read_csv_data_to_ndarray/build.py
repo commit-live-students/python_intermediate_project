@@ -4,10 +4,10 @@ import numpy as np
 path = './data/ipl_matches_small.csv'
 
 # Enter code here
-def read_csv_data_to_ndarray(path):
-    ipl_array=np.genfromtxt(path, dtype='|S50', skip_header=1, delimiter=',')
+def read_csv_data_to_ndarray(path, dtyp):
+    ipl_array=np.genfromtxt(path, dtype=dtyp, skip_header=1, delimiter=',')
     return(ipl_array)
     
-read_csv_data_to_ndarray(path)
+read_csv_data_to_ndarray(path, np.float)
 
 
