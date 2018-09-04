@@ -19,7 +19,7 @@ By executing this task you can learn the basic operation of reading a csv file a
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- |
 | path | string | compulsory |  | path to the file csv |
-| dtype | Float | optional | np.float64 | data type |
+| dtype | Float | compulsory | np.float64 | data type |
 
 #### Returns:
 
