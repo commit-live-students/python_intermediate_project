@@ -1,8 +1,13 @@
-# Default Imports
-import sys, os
-sys.path.append(os.path.join(os.path.dirname(os.curdir),  '..'  ))
-import numpy as np
+#%load q01_zeros_array/build.py
 
-# Your solution
+#
+import numpy as np
+def array_zeros():
+    #import numpy as np
+    
+    arr=np.zeros((3,4,2))
+    return arr
+   #print(arr)
+
 
 
