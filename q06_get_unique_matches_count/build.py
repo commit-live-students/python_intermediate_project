@@ -16,7 +16,7 @@ def get_unique_matches_count():
         ar3=np.unique(ar2)
         ipl_matches_array=np.size(ar3)
         return ipl_matches_array
-
+get_unique_matches_count()
 get_unique_matches_count()
 path = 'data/ipl_matches_small.csv'
 import csv
