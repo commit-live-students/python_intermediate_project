@@ -10,5 +10,6 @@ def read_csv_data_to_ndarray(path, dt=np.float64):
     
     return arr
 
+read_csv_data_to_ndarray(path)
 
 
