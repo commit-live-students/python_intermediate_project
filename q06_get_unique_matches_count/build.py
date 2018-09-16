@@ -7,8 +7,9 @@ import numpy as np
 
 def get_unique_matches_count():
     
-    i=len(np.unique(ipl_matches_array[:,1]))
-    ipl_matches_array
+    
+    ipl_matches_array=len(np.unique(ipl_matches_array[:,1]))
+    
     
     return ipl_matches_array
 
