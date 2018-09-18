@@ -1,7 +1,17 @@
-# Default Imports
-from greyatomlib.python_intermediate.q05_read_csv_data.build import read_ipl_data_csv
+#%load q08_get_total_extras/build.py
+
 import numpy as np
 
-path = 'data/ipl_matches_small.csv'
+path='./data/ipl_matches_small.csv'
 
-# Enter Code Here
+def get_total_extras():
+    
+    arr=np.genfromtxt(path,delimiter=',',skip_header=1,dtype=int)
+#arr
+    #print(sum(arr[:,17]))
+    ext=sum(arr[:,17])
+    return ext
+
+get_total_extras()
+
+
