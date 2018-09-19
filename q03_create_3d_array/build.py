@@ -6,10 +6,9 @@ import numpy as np
 
 def create_3d_array():
     N = np.arange(27)
-    array = np.array(N)
-    array = array.reshape(3,3,3)
-    
-    return create_3d_array
+    np.array(N)
+    N = N.reshape(3,3,3)
+    return N
 
 
 
