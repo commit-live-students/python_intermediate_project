@@ -8,4 +8,3 @@ def read_ipl_data_csv(path, dtype = '|S50'):
     return ipl_matches_array
 read_ipl_data_csv(path)
 
-
