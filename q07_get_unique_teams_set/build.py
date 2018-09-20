@@ -5,16 +5,14 @@ path = 'data/ipl_matches_small.csv'
 
 # Enter Code Here
 import numpy as np
-from numpy import genfromtxt
+
 def get_unique_teams_set():
-    
-    def read_ipl_data_csv(path, dtype= '|S50'):
-        ipl_data= np.genfromtxt('./data/ipl_matches_small.csv', delimiter=',')
-        team_set= set(ipl_data)
-        team1= np.unique(team_set, team1)
-        team2= np.unique(team_set, team2)
-        np.union(team1,team2)
-        return team1,team2
+    data= read_ipl_data_csv(path, dtype='|S500')
+
+    team1= list(data[:,3])
+    team2= list(data[:,4])
+
+    return set(team1+team2)
         
         
     
@@ -22,5 +20,7 @@ def get_unique_teams_set():
     
 
 get_unique_teams_set()
+
+
 
 
