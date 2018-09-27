@@ -4,7 +4,7 @@ dtype ='|S50'
 import numpy as np
 def get_unique_matches_count():
     ipl_matches=np.genfromtxt(path,dtype,skip_header=1,delimiter=',')
-    ipl_matches_array=ipl_matches[:,0].astype(np.int64)
+    ipl_matches_array=ipl_matches[:,0]
     return len(set(ipl_matches_array))
 
 
