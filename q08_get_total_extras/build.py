@@ -9,10 +9,10 @@ path = 'data/ipl_matches_small.csv'
 
 def get_total_extras():
     array = read_ipl_data_csv(path, dtype = '|S100')
-    extras_sum = np.array(array[:, 17:18], dtype = int).sum()
+    extras_sum = np.array(array[:, 17], dtype = int).sum()
     return extras_sum
 
-get_total_extras()
+
 
 
 
