@@ -13,7 +13,4 @@ def get_unique_teams_set():
             teams.append(i[4])
     return set(teams)
 
-get_unique_teams_set()
-
-
 
