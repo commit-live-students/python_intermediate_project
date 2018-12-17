@@ -1,9 +1,13 @@
+# %load q07_get_unique_teams_set/build.py
 # Default imports
-import numpy as np
 from greyatomlib.python_intermediate.q05_read_csv_data.build import read_ipl_data_csv
-path = "data/ipl_matches_small.csv"
+path = 'data/ipl_matches_small.csv'
 
 # Enter Code Here
+
 def get_unique_teams_set():
-    arr = read_ipl_data_csv(path, dtype='|S100')
-    return set(np.unique(arr[:, 3:5]))
+    data = read_ipl_data_csv(path,'|S100')
+    team1,team2 = data[:,3],data[:,4]
+    return set.union(set(team1),set(team2))
+
+
