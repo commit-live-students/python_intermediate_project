@@ -1,3 +1,4 @@
+# %load q08_get_total_extras/build.py
 # Default Imports
 from greyatomlib.python_intermediate.q05_read_csv_data.build import read_ipl_data_csv
 import numpy as np
@@ -10,3 +11,5 @@ def get_total_extras():
 
     sum_extra = np.array(arr[:, 17:18], dtype=int).sum()
     return sum_extra
+
+
