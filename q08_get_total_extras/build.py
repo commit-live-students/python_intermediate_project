@@ -4,4 +4,8 @@ import numpy as np
 
 path = 'data/ipl_matches_small.csv'
 
-# Enter Code Here
+def get_total_extras():
+    ipl_data_arr = read_ipl_data_csv(path,'|S50')
+    extras =  ipl_data_arr[:,-6]
+    return extras.astype(np.int).sum()
+#get_total_extras()
